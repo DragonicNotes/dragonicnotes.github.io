@@ -1,13 +1,15 @@
 body {
   display: flex;
   justify-content: center;
+
+  background-color: CadetBlue;
 }
 
 .page-container {
   width: 800px;
   padding: 2rem;
 
-  background-color: LightGoldenRodYellow;
+  background-color: FloralWhite;
 }
 
 /* On screens that are 768px or less, set the background color to blue */

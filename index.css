@@ -44,7 +44,7 @@ a {
 }
 
 .content-block {
-  flex-grow: 6;
+  flex-grow: 1;
 }
 
 /* On screens that are 768px or less, set the background color to blue */

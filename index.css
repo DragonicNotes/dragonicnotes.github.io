@@ -12,6 +12,7 @@ a {
 .page-container {
   width: 800px;
   padding: 2rem;
+  border-radius: 15px;
 
   background-color: FloralWhite;
 }
@@ -19,6 +20,8 @@ a {
 .site-categories {
   display: flex;
   width: 100%;
+  border-radius: 5px;
+
   background: CadetBlue;
 }
 
@@ -47,8 +50,26 @@ a {
   flex-wrap: wrap;
 }
 
+.content-intro {
+  display: flex;
+  flex-direction: column;
+}
+
 .content-block {
   flex: 1 1 0px;
+}
+
+.image-frame {
+  width: 10rem;
+
+  align-self: center;
+}
+
+.portrait-image {
+  width: 100%;
+  border-radius: 50%;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* On screens that are 768px or less, set the background color to blue */

@@ -53,10 +53,12 @@ a {
 .content-intro {
   display: flex;
   flex-direction: column;
+  line-height: 1.5rem;
 }
 
 .content-block {
   flex: 1 1 0px;
+  line-height: 1.5rem;
 }
 
 .image-frame {

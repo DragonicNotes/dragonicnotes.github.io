@@ -17,6 +17,10 @@ a {
   background-color: FloralWhite;
 }
 
+.site-subtitle {
+  color: gray;
+}
+
 .site-categories {
   display: flex;
   width: 100%;

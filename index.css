@@ -44,12 +44,16 @@ a {
 }
 
 .content-block {
-  flex-grow: 1;
+  flex: 1 1 0px;
 }
 
 /* On screens that are 768px or less, set the background color to blue */
 @media screen and (max-width: 768px) {
   .page-container {
     width: 100%;
+  }
+
+  .content-block {
+    flex: unset;
   }
 }

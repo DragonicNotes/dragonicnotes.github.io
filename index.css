@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.page-container {
+  width: 800px;
+  padding: 2rem;
+
+  background-color: LightGoldenRodYellow;
+}
+
+/* On screens that are 768px or less, set the background color to blue */
+@media screen and (max-width: 768px) {
+  .page-container {
+    width: unset;
+  }
+}

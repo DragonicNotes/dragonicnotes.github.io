@@ -5,11 +5,46 @@ body {
   background-color: CadetBlue;
 }
 
+a {
+  text-decoration: none;
+}
+
 .page-container {
   width: 800px;
   padding: 2rem;
 
   background-color: FloralWhite;
+}
+
+.site-categories {
+  display: flex;
+  width: 100%;
+  background: CadetBlue;
+}
+
+.site-categories > .cat-item {
+  color: floralwhite;
+  font-weight: 900;
+  margin: 1rem;
+}
+
+.cat-item > a:link {
+  color: floralwhite;
+  text-decoration: none;
+}
+
+.cat-item > a:visited {
+  color: floralwhite;
+  text-decoration: none;
+}
+
+.content-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-block {
+  flex-grow: 6;
 }
 
 /* On screens that are 768px or less, set the background color to blue */

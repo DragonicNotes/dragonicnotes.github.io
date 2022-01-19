@@ -21,8 +21,33 @@ a {
   color: gray;
 }
 
+.back-button-text {
+  margin-top: 5rem;
+}
+
+.back-button {
+  display: flex;
+  flex-direction: column;
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50% 50%;
+  background-color: CadetBlue;
+
+  text-align: center;
+}
+
+.back-button-text > a:link {
+  color: FloralWhite;
+}
+
+.back-button-text > a:visited {
+  color: FloralWhite;
+}
+
 .site-categories {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   border-radius: 5px;
 
@@ -32,21 +57,25 @@ a {
 .site-categories > .cat-item {
   /* color: floralwhite; */
   font-weight: 900;
-  margin: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 .cat-item > a:link {
   color: floralwhite;
-  text-decoration: none;
 }
 
 .cat-item > a:visited {
   color: floralwhite;
-  text-decoration: none;
 }
 
 .item-disabled {
   color: SlateGrey;
+}
+
+.item-selected {
+  background-color: black;
+  border-radius: 5px;
 }
 
 .content-body {

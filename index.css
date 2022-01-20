@@ -92,15 +92,17 @@ a {
   flex-wrap: wrap;
 }
 
-.content-intro {
+.content-block-full {
   display: flex;
   flex-direction: column;
   line-height: 1.5rem;
 }
 
 .content-block {
-  flex: 1 1 0px;
+  flex: 1 1 40%;
   line-height: 1.5rem;
+
+  margin-right: 3rem;
 }
 
 .image-frame {

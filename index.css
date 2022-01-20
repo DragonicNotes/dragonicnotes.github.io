@@ -49,6 +49,11 @@ a {
   color: FloralWhite;
 }
 
+.back-button-text-position {
+  position: relative;
+  top: -0.05rem;
+}
+
 .site-categories {
   display: flex;
   flex-wrap: wrap;

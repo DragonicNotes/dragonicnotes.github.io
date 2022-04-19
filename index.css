@@ -9,6 +9,10 @@ body {
   background-color: CadetBlue;
 }
 
+h1.page-title > a {
+  color: #000;
+}
+
 a {
   text-decoration: none;
 }

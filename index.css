@@ -109,6 +109,15 @@ a {
   margin-right: 3rem;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
 .image-frame {
   width: 10rem;
 
@@ -120,6 +129,11 @@ a {
   border-radius: 50%;
 
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-in-essay {
+  width: 90%;
+  align-self: center;
 }
 
 /* On screens that are 768px or less, set the background color to blue */

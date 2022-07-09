@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  text-justify: auto;
+}
+
 .page-container {
   width: 800px;
   padding: 2rem;

@@ -60,6 +60,7 @@ p {
 .back-button-text-position {
   position: relative;
   top: -0.05rem;
+  text-align: center;
 }
 
 .site-categories {

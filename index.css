@@ -111,6 +111,10 @@ p {
   margin: 0.5rem;
 }
 
+.content-block-full > img {
+  width: 100%;
+}
+
 .content-block {
   flex: 1 1 40%;
   text-align: justify;

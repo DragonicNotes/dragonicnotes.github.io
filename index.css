@@ -151,6 +151,11 @@ hr {
   margin-bottom: 2rem;
 }
 
+.span-text-bold-darkred {
+  font-weight: bold;
+  color: darkred;
+}
+
 /* On screens that are 768px or less, set the background color to blue */
 @media screen and (max-width: 768px) {
   .page-container {

@@ -13,6 +13,21 @@ h1.page-title > a {
   color: #000;
 }
 
+h3 {
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
+h4 {
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
+ul {
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
 a {
   text-decoration: none;
 }

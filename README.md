@@ -10,3 +10,4 @@
 ## log
 
 - 2024-04-07 ，掛上自訂網域 dragonicnotes.laohanj.tw
+- 2026-10-16 memo ，忘記什麼時候已經沒有掛網域了。
